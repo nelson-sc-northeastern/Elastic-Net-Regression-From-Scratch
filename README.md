@@ -78,9 +78,9 @@ All three models (Gradient Descent from scratch, Coordinate Descent from scratch
 
 | Model Implementation | Mean Absolute / Root Error Performance | Notes |
 | :--- | :--- | :--- |
-| **Coordinate Descent (Scratch)** | $\approx \$28,000$ Error | Best overall scratch performance; outperformed GD by $\sim 10\%$. |
-| **Gradient Descent (Scratch)** | $\approx \$31,000$ Error | Fast initial convergence but plateaued slightly higher. |
-| **Scikit-Learn ElasticNet** | $\approx \$28,000$ Error | Verified identical convergence to the scratch Coordinate Descent model. |
+| **Coordinate Descent (Scratch)** | $~ \$28,000$ Error | Best overall scratch performance; outperformed GD by $\sim 10\%$. |
+| **Gradient Descent (Scratch)** | $\~ \$31,000$ Error | Fast initial convergence but plateaued slightly higher. |
+| **Scikit-Learn ElasticNet** | $\~ \$28,000$ Error | Verified identical convergence to the scratch Coordinate Descent model. |
 
 ---
 
