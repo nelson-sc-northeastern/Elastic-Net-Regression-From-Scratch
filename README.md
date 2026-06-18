@@ -84,6 +84,8 @@ All three models (Gradient Descent from scratch, Coordinate Descent from scratch
 
 ---
 
+These dollar values may seem highly off but due to the location of the data for this housing market the actual prediction is about ~10% off the true sale price.
+
 ##  Repository Directory Structure
 
 
