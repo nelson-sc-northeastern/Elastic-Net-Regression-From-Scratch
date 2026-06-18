@@ -76,11 +76,11 @@ A systematic **Grid Search** framework was built to map out the optimal tuning l
 ### Performance Summary:
 All three models (Gradient Descent from scratch, Coordinate Descent from scratch, and Sklearn) converged successfully to highly uniform baselines:
 
-| Model Implementation | Mean Absolute / Root Error Performance | Notes |
+| Model Implementation | Mean Absolute Error off correct Sale Price | Notes |
 | :--- | :--- | :--- |
-| **Coordinate Descent (Scratch)** | $~ \$28,000$ Error | Best overall scratch performance; outperformed GD by $\sim 10\%$. |
-| **Gradient Descent (Scratch)** | $\~ \$31,000$ Error | Fast initial convergence but plateaued slightly higher. |
-| **Scikit-Learn ElasticNet** | $\~ \$28,000$ Error | Verified identical convergence to the scratch Coordinate Descent model. |
+| **Coordinate Descent (Scratch)** | $~ \$28,000$ | Best overall scratch performance; outperformed GD by $\sim 10\%$. |
+| **Gradient Descent (Scratch)** | $\~ \$31,000$ | Fast initial convergence but plateaued slightly higher. |
+| **Scikit-Learn ElasticNet** | $\~ \$28,000$ | Verified identical convergence to the scratch Coordinate Descent model. |
 
 ---
 
